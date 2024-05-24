@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Suscribete</title>
+</head>
+<body>
+    <header>
+        
+        <img class="logo" src="../img/ojobuey.png" alt="logo">
+        <h1>Suscripción</h1>
+        <nav>
+            
+            <a class="links" href="../index.html"> Inicio</a>
+            <a class="links" href="./pag2.html"> Críticas</a>
+            <a class="links" href="./pag3.html"> Editorial</a>
+            <a class="links" href="./pag4.html"> Catálogo</a>
+            <a class="links" href="./pag5.html"> Suscripción</a>
+        </nav>
+        
+    </header>
+    <main>
+        <form action="">
+        <div>
+            <label for="name">*Nombre y apellido:</label>
+            <input type="text" name="name" required>
+            
+        </div>
+        <br>
+        <div>
+            <label for="old">Edad:</label>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <label for="mail">*Escribe tu e-mail:</label>
+            <input type="text" name="mail" required>
+        </div>
+        <br>
+        <div>
+            <label for="pass">*Password</label>
+            <input type="text" name="pass" required>
+        </div>
+        <br>
+        <div>
+            <label for="pais">Selecciona tu país de residencia</label>
+            <select name="pais" id="">
+            <option value="arg">Argentina</option>
+            <option value="br">Brasil</option>
+            <option value="cl">Chile</option>
+            <option value="uy">Uruguay</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="sex">Género</label>
+            <input type="radio" name="sex" value="muj">Mujer
+            <input type="radio" name="sex" value="hom">Hombre
+            <input type="radio" name="sex" value="nob">No binario
+        </div>
+        <br>
+        <div>
+            <label for="com">Escribe tus comentarios</label>
+            <br>
+            <textarea name="com" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <label for="condiciones">Acepto las condiciones</label>
+        <input type="checkbox" name="condiciones">
+        <br>
+        
+        <br>
+        <input class="btnformulario" type="submit" value="enviar datos">
+        <input class="btnformulario" type="reset" value="borrar campos">
+        
+    </form>
+
+    </main>
+    <footer>
+        <h3 class="derechos">info@ojodebuey.com | Copyright © 2008-2013 Ojo de Buey. Todos los derechos reservados ojodebuey.com</h3>
+    </footer>
+</body>
+</html>
